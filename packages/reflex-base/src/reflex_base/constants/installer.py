@@ -17,7 +17,7 @@ class Bun(SimpleNamespace):
     """Bun constants."""
 
     # The Bun version.
-    VERSION = "1.4.2"
+    VERSION = "1.4.3"
 
     # Min Bun Version. Bun 1.4 creates new lockfiles at `lockfileVersion: 2`,
     # which 1.3.x cannot parse at all, so a `reflex.lock/bun.lock` generated
@@ -160,7 +160,7 @@ class PackageJson(SimpleNamespace):
         "postcss-import": "17.0.0",
         "@react-router/dev": _react_router_version,
         "@react-router/fs-routes": _react_router_version,
-        "vite": "8.3.2",
+        "vite": "8.3.4",
     }
 
     REACT_COMPILER_DEV_DEPENDENCIES = {
